@@ -11,7 +11,7 @@ function Cohort(props) {
   return (
     <div>
       <h1>Hi!</h1>
-      <section>
+      <section className="people-grid">
         {peopleComponents}
       </section>
    </div>
