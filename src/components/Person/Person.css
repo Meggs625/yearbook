@@ -1,1 +1,20 @@
+.person-card {
+  background-color: white;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
 
+.person-pic {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.person-name {
+  color:blueviolet;
+  
+}
