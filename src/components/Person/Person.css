@@ -9,12 +9,11 @@
 }
 
 .person-pic {
-  width: 200px;
-  height: auto;
+  width: 225px;
+  height: 250px;
   border-radius: 10px;
 }
 
 .person-name {
-  color:blueviolet;
-  
+  color:blueviolet;  
 }
