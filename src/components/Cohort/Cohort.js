@@ -6,7 +6,14 @@ function Cohort(props) {
   let title = 'Staff'
   const peopleComponents = props.data.map(individual => {
     return (
-      <Person key={individual.id} info={individual}/>
+      <Person 
+      key={individual.id} 
+      id={individual.id}
+      info={individual} 
+      type={props.type}
+      delete={props.delete}
+      update={props.update}/>
+      
     )
   })
 
