@@ -33,15 +33,15 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-        <h1>Turing Yearbook</h1>
-       </header>
+          <h1>Turing Yearbook</h1>
+        </header>
         <Form addStudent={this.addStudent}/>
-       <Cohort data={this.state.staff} type="staff"/>
-       <Cohort 
-       data={this.state.students} 
-       type="students" 
-       delete={this.deleteStudent}
-       />
+        <Cohort data={this.state.staff} type="staff"/>
+        <Cohort 
+          data={this.state.students} 
+          type="students" 
+          delete={this.deleteStudent}
+      />
       </div>
     );
   }
